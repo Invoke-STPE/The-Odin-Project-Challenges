@@ -120,3 +120,28 @@ h2 {
 .information img {
     border-radius: 10px;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-content {
+    padding: 8rem;
+    max-width: 980px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote-name {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
