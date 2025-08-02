@@ -102,3 +102,21 @@ h2 {
     border-radius: 10px;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    text-align: center;
+    max-width: var(--content-width);
+    padding: 8rem;
+    gap: 2rem;
+}
+
+.information > div{
+    display: flex;
+    gap: 2rem;
+}
+
+.information img {
+    border-radius: 10px;
+}
