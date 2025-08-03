@@ -63,6 +63,10 @@ h2 {
     font-size: 32px;
     font-weight: bold;
 }
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
 
 .logo {
     font-size: 24px;
@@ -145,3 +149,41 @@ h2 {
     align-self: flex-end;
 }
 
+.cta {
+    padding: 8rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.cta-content {
+    padding: 5rem;
+    border-radius: 1.5rem;
+    max-width: 880px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    background-color: #3b82f6;
+
+}
+
+button {
+    background-color: #3b82f6;
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+    padding-inline: 1.5rem;
+    padding-block: 0.5rem;
+    border-radius: 10px;
+    border-color: white;
+}
+
+
+footer {
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color-dark);
+    color: white;
+}
